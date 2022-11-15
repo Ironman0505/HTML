@@ -1,0 +1,40 @@
+body{
+    background-color:rgb(181, 223, 240);
+}
+
+h2{
+    font-size:4em;
+    font-family: 'Courier New', Courier, monospace;
+    color:coral;
+    margin: 0 0 0 40%;
+    width:20%;
+}
+.pic1{
+    height:250px;
+    width:25%;
+    margin:0 5% 0 5%;
+    border-radius: 2.5%;
+}
+.pic2{
+    height:250px;
+    width:25%;
+    margin:0 5% 0 0;
+    border-radius: 2.5%;
+    
+}
+.pic3{
+    height:250px;
+    width:25%;
+    margin:0 5% 0 0;
+    border-radius: 2.5%;
+}
+.para1{
+    text-indent: 3%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:dimgrey
+}
+.para2{
+    text-indent: 3%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:dimgrey
+}

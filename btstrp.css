@@ -1,0 +1,30 @@
+.container-fluid{
+    padding: 20px;
+}
+img{
+    width:400px;
+    padding:20px;
+    margin:20px 200px;;
+    background-color: black;
+    border-radius: 20px;
+    box-shadow: 0px 0px 25px gold;
+}
+/* .avg{
+    display:block;
+    margin:auto;
+
+} */
+body{
+    background-color: rgb(188, 192, 201);
+   
+}
+p{
+    margin: 20px;
+}
+.txt{
+    color:blueviolet;
+    font-size:3rem;
+    text-align:center;
+    
+}
+

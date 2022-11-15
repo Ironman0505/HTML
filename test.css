@@ -1,0 +1,46 @@
+body{
+    /* background-image:url("https://images.indianexpress.com/2021/02/wikimedia-AChawla-russel-viper.jpg"); */
+    background-size: 200px 250px;
+    background-repeat: repeat;
+    /* background:linear-gradient(to right,blue,green,yellow) */
+    /* background:radial-gradient(ellipse,red 5%,yellow 13% ,pink 8% ) */
+
+}
+img{
+    width:75%;
+    display:flex;
+    margin: auto;
+    max-width: 400px;
+}
+
+.parent{
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction:column-reverse; */
+    /* used the main axissss */
+    justify-content:space-around;    
+    /* used for cross axisss */
+    align-items:center;  
+}
+.child{
+    background-color: aqua;
+    width:200px;
+    margin:10px;
+    /* align-self: center; */
+
+
+}
+.child1{
+    /* flex : grow shrink basis */
+
+    height: 200px;
+    /* flex-shrink: 0;
+    flex-grow: 1; */
+    order:3;
+}
+.child2{
+    height: 300px;
+}
+.child3{
+    height: 400px;
+}

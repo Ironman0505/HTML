@@ -1,0 +1,174 @@
+body{
+    background-color: cadetblue;
+}
+
+h1{
+    color:rgb(179, 76, 161);
+    padding-top:50px;
+    padding-left:50px;
+    margin:25px;
+    text-shadow:0px 0px 5px aquamarine;
+}
+h1,h3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h3{
+    
+    padding-top:10px;
+    padding-left:50px;
+    margin:25px;
+}
+.block{
+float:left;
+padding-right:200px;
+}
+.zap{
+    width:75%;
+    padding:10px;
+    border-radius:20px;
+    box-shadow:10px 10px 10px black;
+    background-color: aquamarine;
+    max-width:400px;
+    float:none;
+}
+.empty{
+    height:50px;
+}
+.imgg{
+    display:block;
+    width:40px;
+    height:40px;
+    padding:10px 10px;
+}
+.fl{
+
+    display: flex;
+    justify-content: space-evenly;
+}
+.fl1{
+    background-color: bisque;
+    height:300px;
+    width:400px;
+    margin:20px;
+    text-align: center;
+    border-radius: 20px;
+    font-size:1.2em;
+    padding:10px;
+}
+p{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+@media (min-width:320px) and (max-width:480px){
+
+    .block{
+        width:75%;
+        float:none;
+        padding:3vw 2vh;
+    }
+    .block{
+        float:none;
+    }
+    .zap{
+        display:block;
+        margin:auto;
+    }
+.fl{
+flex-direction: column;
+}
+    .fl1{
+    width:275px;
+}
+h4{
+    font-size:5vw;
+}
+p{
+    font-size:3.75vw;
+}
+h1,h3{
+font-size:3.6vw;
+}
+}
+
+
+@media (min-width:481px) and (max-width:768px){
+    .zap{
+        display:block;
+        margin:auto;
+    }
+    .fl{
+        flex-direction: column;
+        }
+        .fl1{
+        width:300px;
+        
+    }
+    h4{
+        font-size:2.5vw;
+    }
+    p{
+        font-size:1.75vw;
+    }
+    h1,h3{
+       font-size: 1.85vm;
+    }
+    }
+
+
+    @media (min-width:769px) and (max-width:1024px){
+        .block{
+            float:none;
+            padding:3vw;
+        }
+/* .fl{
+flex-direction: column;
+} */
+.zap{
+    display:block;
+    margin:auto;
+}
+        .fl1{
+            width:225px;
+            height:225px;
+        }
+        h4{
+            font-size:3vw;
+        }
+        p{
+            font-size:1.25vw;
+        }
+        h1,h3{
+            font-size:1.5vm;
+        }
+        }
+
+
+        @media (min-width:1025px) and (max-width:1080px){
+
+            .zap{
+                display:block;
+                margin:auto;
+            }
+                .fl1{
+                width:400px;
+            }
+             h4{
+                font-size:5vw;
+            }
+            p{
+                font-size:3.5vw;
+            } 
+            h1{
+                width:3.25vm;
+            }
+            h3{
+                font-size:10px;
+            }
+            }
+            @media (min-width:1081px){
+
+                .zap{
+                    display:block;
+                    margin:auto;
+                }
+                }

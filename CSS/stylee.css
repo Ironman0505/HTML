@@ -1,0 +1,14 @@
+.centre{
+    text-align: center;
+}
+.ri8{
+    text-align: right;
+}
+.italic{
+    font-style:italic;
+}
+.img{
+    display:block;
+    margin:0 auto;
+    
+}

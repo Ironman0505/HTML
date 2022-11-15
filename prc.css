@@ -1,0 +1,58 @@
+.buk{
+    background-color: rgb(231, 83, 83);
+    color:white;
+    width:100px;
+    height:35px;
+    border:none;
+    margin: 20px;
+    padding: 7px;
+    border-radius: 20px;
+    cursor: pointer;
+    border-style: solid;
+    font-style: bold;
+    width: 30vw;
+    /* height: 100%; */
+    /* height: 50em; */
+}
+.zap{
+    color:rgb(204, 210, 231);
+    background-color: green;
+    /* border: none; */
+    margin: 30px;
+    border: 2px solid yellow;
+    padding: 20px;
+    transition: opacity 0.2;
+opacity: 0.5;
+text-shadow: 10px 10px rgb(11, 9, 6);
+}
+.bg{
+    margin: 20px;
+    height: 500px;
+    width: 500px;
+    background-color: rgb(165, 183, 183);
+    background-image: url("https://imgs.search.brave.com/DWdSl-0dCMfqFAuVqcSMRK66bVFGbZx3zarUTxtFzik/rs:fit:527:225:1/g:ce/aHR0cHM6Ly90c2U0/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5l/NmVMYzdVQnUxZlRv/OUlic3JzbkFBSGFH/cSZwaWQ9QXBp");
+    background-repeat: no-repeat;
+    /* background-size: contain; */
+    /* background-size: 40px 40px; */
+    background-position: center;
+    background-attachment: fixed;
+    transition: 1s;
+}
+.bg:hover{
+    cursor: pointer;
+    background-color: blanchedalmond;
+    transition: 1s; /*if this prop is used here...only on hover...it makes smooth...use in parent to make whole action smooth */
+}
+button:hover{
+    opacity: 0.8;
+    color:aqua;
+    border: none;
+    border-color: yellow;
+    cursor: pointer;
+
+}
+.prnt{
+    background-color: aquamarine;
+   height: 100px;
+ 
+}

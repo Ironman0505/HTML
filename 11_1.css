@@ -1,0 +1,49 @@
+.card1:hover{
+
+    /* width:200rem; */
+    box-shadow:0 0 40px #808080;
+    /* height:auto; */
+    /* margin:5%; */
+    transition-delay: 0.15s;
+    transition-duration: 0.5s;
+    cursor:pointer;
+    transform:scale(1.25);
+}
+.card3:hover{
+
+    /* width:200rem; */
+    box-shadow:0 0 40px grey;
+    transition-delay: 0.15s;
+    /* height:auto; */
+    /* margin:5%; */
+    transition-duration: 0.5s;
+    cursor:pointer;
+    transform:scale(1.25)
+}
+.card2:hover{
+
+    /* width:200rem; */
+    box-shadow:0 0 40px grey;
+    transition-delay: 0.15s;
+    /* height:auto; */
+    /* margin:5%; */
+    transition-duration: 0.5s;
+    cursor:pointer;
+    transform:scale(1.25)
+}
+body{
+    background-image: url("https://i.pinimg.com/originals/9d/90/b9/9d90b95df545964b32c05dfdc0fd1bf1.jpg");
+}
+.card1{
+   margin-left:85px;
+}
+.card3{
+    margin-right:85px;
+}
+.card1,.card2,.card3{
+    border-radius:20px;
+}
+.card1,.card2,.card3{
+
+    margin:5px;
+}

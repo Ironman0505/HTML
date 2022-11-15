@@ -1,0 +1,39 @@
+.img {
+  margin: auto;
+}
+h3{
+  color:red;
+}
+body {
+  background-color: rgb(241, 227, 207);
+  padding:5%;
+  border: 1.25em solid black; 
+}
+.para {
+  font-size:2em;
+  color: black;
+  text-align: center;
+  font-family: 'Red Hat Mono', monospace;
+}
+.fle {
+  display: flex;
+}
+.hmm {
+  font-family: 'Mochiy Pop P One', sans-serif;
+
+}
+.helpp {
+  color: red;
+  font-family: 'Fruktur', cursive;
+}
+.final {
+  font-family: 'Fruktur', cursive;
+}
+p{
+  font-size:1.25em;
+}
+
+  h3{
+    font-family: 'Red Hat Mono', monospace;
+  }
+

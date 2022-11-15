@@ -1,0 +1,38 @@
+.first{
+
+  color: black;
+  padding:0 0 0 5%;
+  
+  font-family: 'Mochiy Pop P One', sans-serif;
+}
+.pic {
+  height: 250px;
+  width: 250px;
+  float: left;
+  padding: 25px;
+}
+.side {
+font-size:2.25em;
+  border: 2px none none;
+  padding : 10px;
+  font-family: 'Dongle', sans-serif;
+}
+.viper {
+  font-size:2em;
+  clear: both;
+  padding: 5px 0 0 5%;
+  font-family: 'Ceviche One', cursive;
+}
+.pal {
+  color: red;
+  text-decoration: none;
+}
+body {
+  background-color: rgb(214, 211, 182);
+}
+
+.zap{
+  font-family:'Original Surfer', cursive;
+  color: brown; 
+  padding: 0 0 0 5%
+}

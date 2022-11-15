@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INEVITABLE</title>
+    <link rel="stylesheet" href="forms.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300&family=Ceviche+One&family=Dancing+Script:wght@400;500;600&family=Dongle&family=Fruktur&family=Kings&family=Mochiy+Pop+One&family=Mochiy+Pop+P+One&family=Original+Surfer&family=Raleway:ital,wght@1,100&family=Red+Hat+Mono&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ceviche+One&family=Dancing+Script:wght@400;500;600&family=Dongle&family=Fruktur&family=Kings&family=Mochiy+Pop+One&family=Mochiy+Pop+P+One&family=Original+Surfer&family=Raleway:ital,wght@1,100&family=Red+Hat+Mono&display=swap" rel="stylesheet"> 
+</head>
+
+<body>
+    <img class="img" src="https://cdn3.iconfinder.com/data/icons/geek-3/24/Avengers_marvel_movie_comic_book_action-1024.png" alt="">
+    <h1><i class="fa-solid fa-meteor"></i>AVENGERS APPLICATION FORM</h1>
+    <hr>
+    <form>
+
+        <fieldset>
+            <legend>LET'S SAVE THE WORLD..</legend>
+
+            <!-- NAME OF AVENGER -->
+            <div>
+                <label for="avname">NAME</label>
+                <input type="text" name="avname" id="avname" placeholder="Enter your name pal.."
+                    autocomplete="off">
+            </div>
+<BR></BR>
+            <!-- name should be same inorder to make radios work -->
+            <!-- GENDER -->
+            <div>
+                <label for="gender">SELECT YOUR GENDER</label>
+                <div>
+                    <input type="radio" name="gender" id="male">
+                    <label for="male">MALE</label>
+                    <input type="radio" name="gender" id="female">
+                    <label for="female">FEMALE</label>
+                    <input type="radio" name="gender" id="none">
+                    <label for="none">DON'T WANNA REVEAL</label>
+                </div>
+            </div>
+            <BR></BR>
+            <!-- TRANSFORM INTO SUPER HERO -->
+            <div>
+                <label for="hero">Enter your super name</label>
+                <input type="text" name="hero" id="hero"  placeholder="like spiderman..etc">
+            </div>
+            <BR></BR>
+<div>
+    <label for="code">Enter your code</label>
+    <input type="password" name="code" id="code" autocomplete="off">
+    <BR></BR>
+</div>
+            <div>
+                <label for="city">Select the city you wanna save</label>
+                <select name="city" id="city">
+                    <option value="">--SELECT THE CITY HERE--</option>
+                    <option value="">India</option>
+                    <option value="">New York</option>
+                    <option value="">Queens</option>
+                    <option value="">Los Angeles</option>
+                    <option value="">Africa</option>
+                    <option value="">Japan</option>
+                </select>
+            </div>
+            <div>
+                <label for="age">Enter your age</label>
+                <input type="number" name="age" id="age">
+                <BR></BR>
+            </div>
+
+
+            <div>
+                <label for="pic">Upload your img for ID purpose</label>
+                <input type="file" name="image" id="pic">
+                <BR></BR>
+            </div>
+
+<div>
+    <label for="weapon">Select which WEAPONS/SUITS can suit you</label>
+    <div>
+        <input type="checkbox" name="sword" id="sword">
+        <label for="sword">SWORD</label>
+    </div>
+    <div>
+        <input type="checkbox" name="shied" id="shield">
+        <label for="shield">SHIELD</label>
+    </div>
+    <div>
+        <input type="checkbox" name="gun" id="gun">
+        <label for="gun">GUNS N BACKUP</label>
+    </div>
+    <div>
+        <input type="checkbox" name="nano" id="nano">
+        <label for="nano">NANO-TECH</label>
+    </div>
+    <BR></BR>
+</div>
+
+<!-- REASON OF JOINING -->
+<div>
+    <label for="reason">Why you wan't to be an AVENGER</label>
+    <textarea name="reason" id="reason" cols="20" rows="5" placeholder="--start here--"></textarea>
+</div>
+
+         <!-- TIME FOR TRANFORMATION -->
+            <button type="submit">ASSEMBLE!!</button>
+        </fieldset>
+    </form>
+
+</body>
+
+</html>

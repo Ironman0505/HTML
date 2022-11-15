@@ -1,0 +1,37 @@
+.container{
+    height:400px;
+    display:flex;
+    /* background-color: black; */
+    border: 2px solid red;
+    margin:5px;
+    justify-content:space-evenly;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+.item{
+    height:150px;
+    width:150px;
+    color:black;
+    background-color: chartreuse;
+    margin:20px;
+   
+    /* flex-shrink: 3; */
+}
+.cnt2{
+    display:flex;
+    padding:20px;
+    border:2px solid black;
+    justify-content: center;
+    text-align:center;
+}
+li{
+    width:75px;
+    color:green;
+    margin:20px;
+    background-color: burlywood;
+    padding:20px;
+    display: block;
+    margin:auto;
+    text-align: center;
+    list-style-type: none;
+}

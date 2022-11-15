@@ -1,0 +1,39 @@
+body{
+    background-color:rgb(161, 235, 132);
+}
+
+.hyd{
+    text-decoration:none;
+    font-size:4em;
+    color:salmon;
+}
+li{
+    list-style-type:none;
+}
+ul{
+text-align:center;
+}
+.chen{
+   
+    text-decoration:none ;
+    font-size:4em;
+    color:salmon;
+}
+
+.bang{
+    text-decoration:none ;
+    font-size:4em;
+    color:salmon;
+}
+h2{
+    font-size:5em;
+    color:black;
+    text-shadow:rgb(242, 245, 81);
+    margin: 0 0 0 2%;
+    text-decoration: underline;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    text-align:center;
+}
+.f1{
+    display:flex;
+}

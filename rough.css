@@ -1,0 +1,20 @@
+img{
+    /* responsive imgg */
+    margin:auto;
+    display: flex;
+    width:75%;
+    max-width: 450px;
+    height: auto;
+  
+}
+
+h3{
+/* typographyyy */
+text-align: center;
+color:aquamarine;
+font-size: calc(1.5rem + 0.75vw );
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    background-color: black;
+}
