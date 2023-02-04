@@ -41,6 +41,45 @@ console.log(assemble)
  
 
 
+//rest && spread syntaxx    REPLIT
+let zap=function(x,...y){
+  let sm=y.reduce((ac,val)=>ac+val);
+  console.log(sm);
+}
+
+
+zap(10,20,30,40)
+
+let ar=[10,20,30,40]
+let br=[50,60,70]
+let cr=[...ar,...br]
+let dr=[ar,br]
+console.log(cr)
+console.log(dr)
+
+
+let o1={
+  name:"kows",
+  roll:33,
+  age:18,
+  alien:false
+}
+let o2={
+  name:"ben",
+  roll:10,
+  age:12
+}
+let o={...o1,...o2}
+console.log(o)
+
+
+
+
+
+
+
+
+
 // rest params
 
 function fn(a,b,...c){

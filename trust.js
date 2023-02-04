@@ -98,3 +98,21 @@ let np=new Promise((f,r)=>{
 np
 .then(ys=>console.log("The msg is ",ys))
 .catch(nopes=>console.log("The msg is ",nopes))
+
+
+// brand new promise...
+let sayHi=()=>console.log("i am here")
+
+let tmp=33;
+let pr=new Promise((acc,rej)=>{
+    if(tmp==33){
+        acc( sayHi());
+    }
+    else{
+        rej("Hey Assam");
+    }
+})
+
+pr
+.then(yes=>console.log(yes))
+.catch(no=>console.log(no))

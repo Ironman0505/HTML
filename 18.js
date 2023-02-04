@@ -71,3 +71,13 @@ Tin.prototype.getPhenoms= function(){
 let ph=new Tin('Tin papa',19,'Everything',58)
 console.log(ph)
 console.log(ph.getPhenoms())
+
+
+
+//Dates in js
+let d=new Date();
+console.log(d);
+
+
+// math functions....
+// Math.property

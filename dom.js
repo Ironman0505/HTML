@@ -37,3 +37,6 @@ endd.textContent="All problems solved...."
 endd.style.color="yellow"
 body.append(endd)
 
+
+
+// DOm Net Ninja
